@@ -144,7 +144,7 @@ writeAnalyses = Task(
     - main part provides the meat of the analysis including the news summary and fead/greed scores
     - summary - key facts and concrete future trend prediction - up, down or sideways.
     
-    write in pt-br.
+    write in pt-br and not markdown.
 """,
     agent=stockAnalystWrite,
     context=[getStockPrice, get_news]
